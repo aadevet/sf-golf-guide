@@ -2,14 +2,14 @@
 name: Bay Area Golf Register
 description: A compact field guide for comparing public golf courses and driving ranges.
 colors:
-  paper: "#f5f3e9"
+  paper: "#edf2ef"
   ink: "#173e31"
   body: "#253b31"
   muted: "#52665c"
   line: "#cbd5c9"
   wash: "#e8eddf"
   accent: "#d36b52"
-  white: "#fffefa"
+  white: "#ffffff"
   field-white: "#ffffff"
   focus: "#c05b3e"
 typography:
@@ -82,27 +82,27 @@ components:
 
 **Creative North Star: "The Pocket Yardage Book"**
 
-The register feels like a practical field guide carried to the course. Warm paper, deep evergreen ink, fine rules, and restrained coral marks make the information feel collected and trustworthy. A large serif title adds character while compact sans serif controls and figures keep comparisons quick.
+The register feels like a practical field guide carried to the course. Cool field paper, deep evergreen ink, fine rules, and restrained coral marks make the information feel collected and trustworthy. A large serif title adds character while compact sans serif controls and figures keep comparisons quick.
 
 The page is intentionally dense enough to show the start of the register in the first desktop viewport. Repeated rows carry the visual rhythm; the illustration and color accents stay secondary to names, fees, and direct actions.
 
 **Key Characteristics:**
-- Warm paper and flat white surfaces with evergreen type.
+- Cool field paper and flat white surfaces with evergreen type.
 - Ruled, tabular rows instead of promotional tiles.
 - Serif editorial headings with small, clear sans serif labels.
-- Coral reserved for the masthead rule and selected or saved states.
+- Coral reserved for selected or saved states.
 
 ## Colors
 
-The palette uses a warm neutral base and green ink, with a small coral signal for actions and state.
+The palette uses a cool green-gray base and green ink, with a small coral signal for actions and state.
 
 ### Primary
 - **Evergreen ink** (`colors.ink`): masthead, main headings, booking actions, and strong rules.
-- **Coral marker** (`colors.accent`): masthead underline, active tab, and saved star.
+- **Coral marker** (`colors.accent`): active tab and saved star.
 
 ### Neutral
-- **Warm paper** (`colors.paper`): page background and the field guide atmosphere.
-- **Ivory sheet** (`colors.white`): control panel and register rows.
+- **Cool field paper** (`colors.paper`): page background and the field guide atmosphere.
+- **White sheet** (`colors.white`): control panel and register rows.
 - **Body green** (`colors.body`): normal reading text.
 - **Quiet green** (`colors.muted`): metadata, supporting labels, and secondary facts.
 - **Pale rule** (`colors.line`): row dividers and control boundaries.
@@ -158,11 +158,11 @@ Search and select controls are white, lightly bordered, and at least `39px` tall
 
 ### Course rows
 
-Each row is a flat ivory record separated by a pale line. The name uses serif type; location and notes use small sans type. Play and range facts pair a large tabular figure with a concise basis and detail. A saved star sits beside the name and fills coral when active.
+Each row is a flat white record separated by a pale line. The name uses serif type; location and notes use small sans type. Play and range facts pair a large tabular figure with a concise basis and detail. A saved star sits beside the name and fills coral when active.
 
 ### Booking actions
 
-The main link is an evergreen filled rectangle with ivory text and a right arrow. Hover deepens the green and nudges the arrow right; the arrow motion stops when reduced motion is requested. Secondary source links remain underlined text below it.
+The main link is an evergreen filled rectangle with soft white text and a right arrow. Hover deepens the green and nudges the arrow right; the arrow motion stops when reduced motion is requested. Secondary source links remain underlined text below it.
 
 ### Source note
 
