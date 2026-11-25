@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173e31">
+  <meta name="description" content="A practical Bay Area golf register: compare public courses and driving ranges, then open the official booking page.">
+  <title>Bay Area Golf Register</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="courses.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to courses</a>
+  <div class="page-shell">
+    <header class="masthead">
+      <div class="masthead-copy">
+        <h1>Bay Area<br><em>Golf Register</em></h1>
+        <p>Find somewhere to play a round or hit a bucket with friends. Compare the basics, then go straight to the course’s own tee sheet.</p>
+        <div class="masthead-meta"><span id="total-count"></span><span aria-hidden="true">·</span><span>San Francisco to Sunnyvale, Marin to Walnut Creek</span></div>
+      </div>
+      <div class="masthead-mark" aria-hidden="true">
+        <svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 175C58 170 75 123 117 126C151 128 167 156 208 132C235 116 243 97 264 89" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 10"/>
+          <path d="M70 165C92 149 100 149 125 153C148 157 176 170 201 159" stroke="currentColor" stroke-width="1.4" opacity=".5"/>
+          <circle cx="27" cy="169" r="7" fill="currentColor"/>
+          <path d="M230 120V31M230 31L263 41L230 52" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="230" cy="120" r="18" stroke="currentColor" stroke-width="1.5" opacity=".55"/>
+          <circle cx="230" cy="120" r="36" stroke="currentColor" stroke-width="1.5" opacity=".3"/>
+        </svg>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Find a place to golf">
+        <div class="activity-tabs" role="group" aria-label="Activity">
+          <button class="activity-tab active" type="button" data-activity="all" aria-pressed="true">All places</button>
+          <button class="activity-tab" type="button" data-activity="play" aria-pressed="false">Play holes</button>
+          <button class="activity-tab" type="button" data-activity="range" aria-pressed="false">Driving range</button>
+        </div>
+        <div class="filter-row">
+          <label class="search-wrap" for="search"><span>Search</span><input id="search" type="search" placeholder="Course, city, or detail" autocomplete="off"></label>
+          <label for="region"><span>Area</span><select id="region"><option value="all">All areas</option><option value="San Francisco">San Francisco + Pacifica</option><option value="Marin">Marin</option><option value="Peninsula">Peninsula</option><option value="East Bay">East Bay</option></select></label>
+          <label class="advanced-filter" for="holes"><span>Round</span><select id="holes"><option value="all">Any length</option><option value="9">9 holes</option><option value="18">18 holes</option><option value="range">Range only</option></select></label>
+          <label class="advanced-filter" for="day"><span>Compare fees</span><select id="day"><option value="weekend">Weekend</option><option value="weekday">Weekday</option></select></label>
+          <label class="advanced-filter" for="sort"><span>Sort</span><select id="sort"><option value="name">Course name</option><option value="price">Lowest published fee</option><option value="city">City</option></select></label>
+        </div>
+        <div class="saved-row"><button id="saved-only" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.7 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z"/></svg> Saved places <span id="saved-count">0</span></button><button id="more-filters" type="button" aria-expanded="false" aria-controls="holes day sort">More filters</button><button id="reset" type="button">Clear filters</button></div>
+      </section>
+
+      <section id="results" class="results" aria-labelledby="results-title">
+        <div class="results-heading"><div><h2 id="results-title">Places to go</h2><p id="result-count" role="status" aria-live="polite"></p></div><p class="price-key">Published standard adult rates · USD · checked 25 Nov 2026</p></div>
+        <div class="column-labels" aria-hidden="true"><span>Place / location</span><span>Play</span><span>Range</span><span>Go</span></div>
+        <div id="course-list" class="course-list"></div>
+        <div id="empty" class="empty" hidden><h3>No places match these filters.</h3><p>Try another area or clear the filters to see the full register.</p><button id="empty-reset" type="button">Show all places</button></div>
+      </section>
+      <aside class="source-note"><h2>Before you book</h2><p>Fees are published snapshots, not live quotes. Some courses change prices by demand, residency, time of day, or cart choice. Use <strong>Check times</strong> for availability and the linked rate page for the exact terms. Driving ranges are usually walk-up; check the venue’s hours before travelling. I could not verify public booking at a Richmond course; Tilden Park in Berkeley and Franklin Canyon in Hercules are nearby options.</p></aside>
+    </main>
+    <footer><span>Bay Area Golf Register</span><span>Public courses and practice facilities · <a href="https://github.com/aadevet">GitHub</a></span></footer>
+  </div>
+</body>
+</html>
