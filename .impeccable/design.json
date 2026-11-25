@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T21:13:58.050852Z",
+  "title": "Design System: Bay Area Golf Register",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#f5f3e9",
+        "tonalRamp": [
+          "oklch(15% 0.017 92)",
+          "oklch(25% 0.017 92)",
+          "oklch(36% 0.017 92)",
+          "oklch(48% 0.017 92)",
+          "oklch(60% 0.017 92)",
+          "oklch(72% 0.017 92)",
+          "oklch(84% 0.017 92)",
+          "oklch(95% 0.017 92)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Evergreen Ink",
+        "canonical": "#173e31",
+        "tonalRamp": [
+          "oklch(15% 0.052 158)",
+          "oklch(25% 0.052 158)",
+          "oklch(36% 0.052 158)",
+          "oklch(48% 0.052 158)",
+          "oklch(60% 0.052 158)",
+          "oklch(72% 0.052 158)",
+          "oklch(84% 0.052 158)",
+          "oklch(95% 0.052 158)"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Green",
+        "canonical": "#253b31",
+        "tonalRamp": [
+          "oklch(15% 0.030 158)",
+          "oklch(25% 0.030 158)",
+          "oklch(36% 0.030 158)",
+          "oklch(48% 0.030 158)",
+          "oklch(60% 0.030 158)",
+          "oklch(72% 0.030 158)",
+          "oklch(84% 0.030 158)",
+          "oklch(95% 0.030 158)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Green",
+        "canonical": "#52665c",
+        "tonalRamp": [
+          "oklch(15% 0.025 158)",
+          "oklch(25% 0.025 158)",
+          "oklch(36% 0.025 158)",
+          "oklch(48% 0.025 158)",
+          "oklch(60% 0.025 158)",
+          "oklch(72% 0.025 158)",
+          "oklch(84% 0.025 158)",
+          "oklch(95% 0.025 158)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Pale Rule",
+        "canonical": "#cbd5c9",
+        "tonalRamp": [
+          "oklch(15% 0.018 145)",
+          "oklch(25% 0.018 145)",
+          "oklch(36% 0.018 145)",
+          "oklch(48% 0.018 145)",
+          "oklch(60% 0.018 145)",
+          "oklch(72% 0.018 145)",
+          "oklch(84% 0.018 145)",
+          "oklch(95% 0.018 145)"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Grass Wash",
+        "canonical": "#e8eddf",
+        "tonalRamp": [
+          "oklch(15% 0.024 115)",
+          "oklch(25% 0.024 115)",
+          "oklch(36% 0.024 115)",
+          "oklch(48% 0.024 115)",
+          "oklch(60% 0.024 115)",
+          "oklch(72% 0.024 115)",
+          "oklch(84% 0.024 115)",
+          "oklch(95% 0.024 115)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Coral Marker",
+        "canonical": "#d36b52",
+        "tonalRamp": [
+          "oklch(15% 0.130 32)",
+          "oklch(25% 0.130 32)",
+          "oklch(36% 0.130 32)",
+          "oklch(48% 0.130 32)",
+          "oklch(60% 0.130 32)",
+          "oklch(72% 0.130 32)",
+          "oklch(84% 0.130 32)",
+          "oklch(95% 0.130 32)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Ivory Sheet",
+        "canonical": "#fffefa",
+        "tonalRamp": [
+          "oklch(15% 0.009 95)",
+          "oklch(25% 0.009 95)",
+          "oklch(36% 0.009 95)",
+          "oklch(48% 0.009 95)",
+          "oklch(60% 0.009 95)",
+          "oklch(72% 0.009 95)",
+          "oklch(84% 0.009 95)",
+          "oklch(95% 0.009 95)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Coral",
+        "canonical": "#c05b3e",
+        "tonalRamp": [
+          "oklch(15% 0.135 31)",
+          "oklch(25% 0.135 31)",
+          "oklch(36% 0.135 31)",
+          "oklch(48% 0.135 31)",
+          "oklch(60% 0.135 31)",
+          "oklch(72% 0.135 31)",
+          "oklch(84% 0.135 31)",
+          "oklch(95% 0.135 31)"
+        ]
+      },
+      "field-white": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.005 95)",
+          "oklch(36% 0.005 95)",
+          "oklch(48% 0.005 95)",
+          "oklch(60% 0.005 95)",
+          "oklch(72% 0.005 95)",
+          "oklch(84% 0.005 95)",
+          "oklch(95% 0.005 95)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Masthead title."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Register section heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Course and venue names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanatory copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Controls and metadata."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "row-hover",
+        "value": "background 0.2s ease",
+        "purpose": "Gentle register row feedback."
+      },
+      {
+        "name": "arrow-hover",
+        "value": "transform 0.2s ease",
+        "purpose": "Directional response on booking links; removed for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      },
+      {
+        "name": "narrow",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Activity Tab",
+      "kind": "nav",
+      "refersTo": "activity-tab",
+      "description": "A plain activity filter with a coral active underline.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Activity\"><button class=\"ds-tab ds-active\" aria-pressed=\"true\">All places</button><button class=\"ds-tab\" aria-pressed=\"false\">Play holes</button><button class=\"ds-tab\" aria-pressed=\"false\">Driving range</button></nav>",
+      "css": ".ds-tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line)}.ds-tab{border:0;border-bottom:3px solid transparent;background:transparent;color:var(--muted);padding:0 18px 9px;font:700 14px -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;cursor:pointer}.ds-tab.ds-active{border-color:var(--accent);color:var(--ink)}.ds-tab:hover{color:var(--ink)}.ds-tab:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "filter-field",
+      "description": "A compact labelled search field for narrowing the register.",
+      "html": "<label class=\"ds-field\"><span>Search</span><input type=\"search\" placeholder=\"Course, city, or detail\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:6px;color:var(--muted);font:750 12px -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-field input{min-height:39px;border:1px solid #aebfb0;border-radius:5px;background:#fff;color:var(--ink);padding:8px 11px;font:400 16px -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-field input::placeholder{color:#68796d}.ds-field input:focus{border-color:var(--ink)}.ds-field input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Area Select",
+      "kind": "input",
+      "refersTo": "filter-field",
+      "description": "A compact dropdown with the same field geometry as search.",
+      "html": "<label class=\"ds-select\"><span>Area</span><select><option>All areas</option><option>San Francisco + Pacifica</option></select></label>",
+      "css": ".ds-select{display:flex;flex-direction:column;gap:6px;color:var(--muted);font:750 12px -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-select select{min-height:39px;border:1px solid #aebfb0;border-radius:5px;background:#fff;color:var(--ink);padding:8px 11px;font:400 16px -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-select select:hover{border-color:var(--ink)}.ds-select select:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Course Register Row",
+      "kind": "card",
+      "refersTo": "course-row",
+      "description": "A ruled record that aligns venue, fees, range details, and booking.",
+      "html": "<article class=\"ds-row\"><div class=\"ds-place\"><h3>Lincoln Park Golf Course</h3><p>San Francisco · San Francisco</p></div><div class=\"ds-fact\"><strong>$61</strong><span>Standard weekend</span></div><div class=\"ds-fact\"><strong>—</strong><span>No range listed</span></div><a class=\"ds-go\" href=\"#\">Check times →</a></article>",
+      "css": ".ds-row{display:grid;grid-template-columns:minmax(210px,2.2fr) minmax(115px,1fr) minmax(115px,1fr) minmax(130px,1fr);gap:18px;align-items:start;padding:19px 18px;border-bottom:1px solid var(--line);background:var(--white);color:var(--body);transition:background .2s ease}.ds-row:hover{background:#f0f5e9}.ds-place h3{margin:0;color:var(--ink);font:400 1.36rem/1.15 Georgia,\"Iowan Old Style\",serif;letter-spacing:-.02em}.ds-place p{margin:5px 0 0;color:var(--muted);font:400 .79rem/1.4 -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-fact{display:flex;flex-direction:column;color:var(--muted);font:650 .77rem/1.4 -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-fact strong{color:var(--ink);font-size:1.27rem;line-height:1.15;font-weight:730;font-variant-numeric:tabular-nums}.ds-go{display:block;border-radius:4px;background:var(--ink);color:#fff;padding:9px 11px;text-decoration:none;font:750 .8rem -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-go:hover{background:#2b5b41}.ds-go:focus-visible{outline:3px solid var(--focus);outline-offset:3px}@media(max-width:720px){.ds-row{grid-template-columns:1fr 1fr;gap:16px 12px}.ds-place{grid-column:span 2}.ds-go{grid-column:span 2;max-width:200px}}@media(prefers-reduced-motion:reduce){.ds-row{transition:none}}"
+    },
+    {
+      "name": "Booking Link",
+      "kind": "button",
+      "refersTo": "booking-link",
+      "description": "The primary route to a venue booking or availability page.",
+      "html": "<a class=\"ds-book\" href=\"#\">Check times <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M3 10h13m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-book{display:inline-flex;align-items:center;justify-content:space-between;gap:16px;min-height:39px;min-width:160px;border-radius:4px;background:var(--ink);color:#fff;padding:7px 11px;text-decoration:none;font:750 .8rem -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-book:hover{background:#2b5b41}.ds-book:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-book svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s ease}.ds-book:hover svg{transform:translateX(3px)}@media(prefers-reduced-motion:reduce){.ds-book svg{transition:none}}"
+    },
+    {
+      "name": "Saved Place Toggle",
+      "kind": "chip",
+      "refersTo": "saved-toggle",
+      "description": "A light text toggle with a coral star for selected places.",
+      "html": "<button class=\"ds-saved\" aria-pressed=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m12 2.7 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z\"/></svg> Saved places <span>3</span></button>",
+      "css": ".ds-saved{display:inline-flex;align-items:center;gap:7px;border:0;background:transparent;color:var(--ink);padding:6px 0;font:750 .8rem -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;cursor:pointer}.ds-saved svg{width:15px;height:15px;fill:var(--accent);stroke:var(--accent);stroke-width:1.6;stroke-linejoin:round}.ds-saved span{min-width:22px;border-radius:20px;background:var(--wash);padding:1px 6px;text-align:center;font-size:.72rem}.ds-saved:hover{text-decoration:underline;text-underline-offset:3px}.ds-saved:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pocket Yardage Book",
+    "overview": "The register feels like a practical field guide carried to the course. Warm paper, deep evergreen ink, fine rules, and restrained coral marks make the information feel collected and trustworthy. A large serif title adds character while compact sans serif controls and figures keep comparisons quick.\n\nThe page is intentionally dense enough to show the start of the register in the first desktop viewport. Repeated rows carry the visual rhythm; the illustration and color accents stay secondary to names, fees, and direct actions.",
+    "keyCharacteristics": [
+      "Warm paper and flat white surfaces with evergreen type.",
+      "Ruled, tabular rows instead of promotional tiles.",
+      "Serif editorial headings with small, clear sans serif labels.",
+      "Coral reserved for the masthead rule and selected or saved states."
+    ],
+    "rules": [
+      {
+        "name": "The Marker Rule",
+        "body": "Keep coral for selected states and brief accents so prices and booking actions remain easy to scan.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use serif for named places and major headings; use sans serif for controls, prices, and operational detail.",
+        "section": "typography"
+      },
+      {
+        "name": "The First Row Rule",
+        "body": "Keep the masthead and filters compact enough that the register starts within the first desktop viewport.",
+        "section": "layout"
+      },
+      {
+        "name": "The Ruled Sheet Rule",
+        "body": "Separate repeated information with fine lines and tonal changes, not floating cards.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep facts in aligned, ruled rows with the place column wider than price columns.",
+      "Do show a visible focus outline and preserve text labels on controls.",
+      "Do use coral sparingly for active tabs and saved state."
+    ],
+    "donts": [
+      "Don't add drop shadows or raised promotional cards to the register.",
+      "Don't replace tabular fee figures with decorative price badges.",
+      "Don't let the masthead push the register below the first desktop viewport."
+    ]
+  }
+}
