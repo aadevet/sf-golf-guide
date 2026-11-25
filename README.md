@@ -8,9 +8,11 @@ Richmond is in the requested travel area, but the local Richmond Golf Club ident
 
 ## Use
 
-Open `index.html` in a browser. Filter by activity, area and round length; compare published adult fees for weekday or weekend play; save places in your browser; and use the venue's booking, rates, range and map links. The register does **not** fetch live tee times. It sends you to the course's own booking page for current availability and the final price.
+Open `index.html` in a browser. Filter by activity, area and round length; compare published adult fees for weekday or weekend play; and save places in your browser. Select a course row or **View details** to open its booking instructions, weekday and weekend fees, special notes, practice details, and directions. The **Map** tab plots the same filtered places; select a pin or a place below the map to open its full record. The register does **not** fetch live tee times. It sends you to the course's own booking page for current availability and the final price.
 
-`courses.js` is the data file. Add or update one course object there, including links to the venue's own price page. A `null` fee means the rate is variable or has not been reliably published. Rates were researched from official operator or municipal sources on **25 November 2026** and need periodic review.
+`courses.js` is the course data file. Add or update one course object there, including links to the venue's own price page. A `null` fee means the rate is variable or has not been reliably published. `locations.js` holds map coordinates keyed by the same course ID; add a coordinate for every new entry so it appears on the map. Coordinates were looked up once and stored in the project, rather than asking a geocoding service on every page view. Rates were researched from official operator or municipal sources on **25 November 2026** and need periodic review.
+
+The map uses [Leaflet](https://leafletjs.com/) and [OpenStreetMap tiles](https://www.openstreetmap.org/copyright), which require an internet connection. The list below the map still works if map tiles cannot load.
 
 ## Local preview
 

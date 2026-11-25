@@ -7,7 +7,10 @@
   <meta name="description" content="A practical Bay Area golf register: compare public courses and driving ranges, then open the official booking page.">
   <title>Bay Area Golf Register</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous" defer></script>
   <script src="courses.js" defer></script>
+  <script src="locations.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -33,6 +36,10 @@
 
     <main>
       <section class="controls" aria-label="Find a place to golf">
+        <div class="view-tabs" role="group" aria-label="View">
+          <button class="view-tab active" type="button" data-view="list" aria-pressed="true">Register</button>
+          <button class="view-tab" type="button" data-view="map" aria-pressed="false">Map</button>
+        </div>
         <div class="activity-tabs" role="group" aria-label="Activity">
           <button class="activity-tab active" type="button" data-activity="all" aria-pressed="true">All places</button>
           <button class="activity-tab" type="button" data-activity="play" aria-pressed="false">Play holes</button>
@@ -53,6 +60,13 @@
         <div class="column-labels" aria-hidden="true"><span>Place / location</span><span>Play</span><span>Range</span><span>Go</span></div>
         <div id="course-list" class="course-list"></div>
         <div id="empty" class="empty" hidden><h3>No places match these filters.</h3><p>Try another area or clear the filters to see the full register.</p><button id="empty-reset" type="button">Show all places</button></div>
+      </section>
+      <section id="map-view" class="map-view" aria-labelledby="map-title" hidden>
+        <div class="results-heading"><div><h2 id="map-title">Places on the map</h2><p id="map-count" role="status" aria-live="polite"></p></div><p class="price-key">Select a pin or a place below to open its record.</p></div>
+        <div id="course-map" class="course-map" aria-label="Map of filtered golf places"></div>
+        <p id="map-status" class="map-status" hidden></p>
+        <div class="map-list-heading"><h3>On this map</h3><span>Each entry opens its full record</span></div>
+        <div id="map-list" class="map-list"></div>
       </section>
       <aside class="source-note"><h2>Before you book</h2><p>Fees are published snapshots, not live quotes. Some courses change prices by demand, residency, time of day, or cart choice. Use <strong>Check times</strong> for availability and the linked rate page for the exact terms. Driving ranges are usually walk-up; check the venue’s hours before travelling. I could not verify public booking at a Richmond course; Tilden Park in Berkeley and Franklin Canyon in Hercules are nearby options.</p></aside>
     </main>

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-25T21:53:09.856Z",
+        "reason": "Agent review: the page background is pale green (#edf2ef); cream appears only as high-contrast text on the dark masthead."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-25T21:53:12.986Z",
+        "reason": "Agent review: the navigation uses a bottom underline; there is no thick accent border on a card side."
+      }
+    ]
+  }
+}
