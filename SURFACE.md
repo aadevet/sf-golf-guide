@@ -12,7 +12,7 @@ Find a public place in the broader Bay Area to play nine or eighteen holes or us
 
 **THESIS:** A pocket yardage book for choosing the next outing: the useful information sits in a clear ruled register, not in a promotional grid.
 
-**OWN-WORLD:** Warm paper, deep evergreen ink, pale grass green, and small coral marks. Fine horizontal rules and compact tabular figures make prices easy to scan. The serif title gives the page a personal field-guide voice; controls use a plain sans face.
+**OWN-WORLD:** Cool field paper, deep evergreen ink, pale grass green, and small coral marks. Fine horizontal rules and compact tabular figures make prices easy to scan. The serif title gives the page a personal field-guide voice; controls use a plain sans face.
 
 **STORY:** Choose play or practice, narrow the geography and round length, compare the visible fees, then follow a direct venue link. Source and review dates are visible at the point of comparison.
 
