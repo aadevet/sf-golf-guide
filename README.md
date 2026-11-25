@@ -1,5 +1,7 @@
 # Bay Area Golf Register
 
+Live page: https://aadevet.github.io/sf-golf-guide/
+
 A static, personal index of public Bay Area golf courses and driving ranges. It covers San Francisco and Pacifica, Marin, Berkeley and the East Bay through Walnut Creek and San Leandro, and the Peninsula through Sunnyvale. San Jose is outside the requested scope.
 
 Richmond is in the requested travel area, but the local Richmond Golf Club identifies itself as a private club. No public Richmond booking option was verified. Tilden Park in Berkeley and Franklin Canyon in Hercules are nearby public alternatives.
