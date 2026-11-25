@@ -6,17 +6,17 @@
     "colorMeta": {
       "paper": {
         "role": "neutral",
-        "displayName": "Warm Paper",
-        "canonical": "#f5f3e9",
+        "displayName": "Cool Field Paper",
+        "canonical": "#edf2ef",
         "tonalRamp": [
-          "oklch(15% 0.017 92)",
-          "oklch(25% 0.017 92)",
-          "oklch(36% 0.017 92)",
-          "oklch(48% 0.017 92)",
-          "oklch(60% 0.017 92)",
-          "oklch(72% 0.017 92)",
-          "oklch(84% 0.017 92)",
-          "oklch(95% 0.017 92)"
+          "oklch(15% 0.014 158)",
+          "oklch(25% 0.014 158)",
+          "oklch(36% 0.014 158)",
+          "oklch(48% 0.014 158)",
+          "oklch(60% 0.014 158)",
+          "oklch(72% 0.014 158)",
+          "oklch(84% 0.014 158)",
+          "oklch(95% 0.014 158)"
         ]
       },
       "ink": {
@@ -111,17 +111,17 @@
       },
       "white": {
         "role": "neutral",
-        "displayName": "Ivory Sheet",
-        "canonical": "#fffefa",
+        "displayName": "White Sheet",
+        "canonical": "#ffffff",
         "tonalRamp": [
-          "oklch(15% 0.009 95)",
-          "oklch(25% 0.009 95)",
-          "oklch(36% 0.009 95)",
-          "oklch(48% 0.009 95)",
-          "oklch(60% 0.009 95)",
-          "oklch(72% 0.009 95)",
-          "oklch(84% 0.009 95)",
-          "oklch(95% 0.009 95)"
+          "oklch(15% 0.005 158)",
+          "oklch(25% 0.005 158)",
+          "oklch(36% 0.005 158)",
+          "oklch(48% 0.005 158)",
+          "oklch(60% 0.005 158)",
+          "oklch(72% 0.005 158)",
+          "oklch(84% 0.005 158)",
+          "oklch(95% 0.005 158)"
         ]
       },
       "focus": {
@@ -257,12 +257,12 @@
   ],
   "narrative": {
     "northStar": "The Pocket Yardage Book",
-    "overview": "The register feels like a practical field guide carried to the course. Warm paper, deep evergreen ink, fine rules, and restrained coral marks make the information feel collected and trustworthy. A large serif title adds character while compact sans serif controls and figures keep comparisons quick.\n\nThe page is intentionally dense enough to show the start of the register in the first desktop viewport. Repeated rows carry the visual rhythm; the illustration and color accents stay secondary to names, fees, and direct actions.",
+    "overview": "The register feels like a practical field guide carried to the course. Cool field paper, deep evergreen ink, fine rules, and restrained coral marks make the information feel collected and trustworthy. A large serif title adds character while compact sans serif controls and figures keep comparisons quick.\n\nThe page is intentionally dense enough to show the start of the register in the first desktop viewport. Repeated rows carry the visual rhythm; the illustration and color accents stay secondary to names, fees, and direct actions.",
     "keyCharacteristics": [
-      "Warm paper and flat white surfaces with evergreen type.",
+      "Cool field paper and flat white surfaces with evergreen type.",
       "Ruled, tabular rows instead of promotional tiles.",
       "Serif editorial headings with small, clear sans serif labels.",
-      "Coral reserved for the masthead rule and selected or saved states."
+      "Coral reserved for selected or saved states."
     ],
     "rules": [
       {
